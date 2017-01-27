@@ -1,0 +1,17 @@
+{
+  "name": "codecoyotes/silverstripe-ccshortcodes",
+  "description": "Some shortcodes we use often",
+  "type": "silverstripe-module",
+  "keywords": [
+	"silverstripe",
+	"shortcode"
+  ],
+  "authors": [
+	{
+	  "name": "CodeCoyotes"
+	}
+  ],
+  "extra": {
+	"installer-name": "cc-shortcodes"
+  }
+}
