@@ -3,7 +3,11 @@
 class CCShortcodesHandler {
 
 	public static function StyledIcon($arguments, $content = null, $parser = null, $tagName){
-		return '<h1>Icon</h1>';
+		if(!array_key_exists('icon', $arguments)){
+			return false;
+		}
+		$icon = '<i class="'.$arguments['icon'].'"></i>';
+		return $icon;
 	}
 
 }
