@@ -6,7 +6,7 @@ class CCShortcodesHandler {
 		if(!array_key_exists('icon', $arguments)){
 			return false;
 		}
-		$icon = '<i class="'.$arguments['icon'].'"></i>';
+		$icon = '<span class="styled-icon"><i class="'.$arguments['icon'].'"></i></span>';
 		return $icon;
 	}
 
